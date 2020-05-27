@@ -39,7 +39,7 @@ for jj=1:N %for every user
     Himat=zeros(K,K);
     Himat(1:K,1:K)=(Hi_res(:,:,jj)*Hi_res(:,:,jj)');
     Himat=scaler*(Himat'+Himat)/2; % Getting rid of numerical errors
-    % We multiply both sides of the eqn.(2c) with scaler to avoid cvx
+    % We multiply both sides of the eqn.(2b) with scaler to avoid cvx
     % numerical errors.
     Hi(:,:,jj)=Ro*Himat;
 end
