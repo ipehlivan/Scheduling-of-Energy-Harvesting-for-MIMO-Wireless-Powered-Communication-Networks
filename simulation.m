@@ -72,7 +72,7 @@ parfor toa=1:120 % for every topology
     %% Energy requirement
     eng_scale=(10^(-6))*scaler; %Joule
     % Getting rid of numerical errors
-    % I multiply both sides of the eqn.(2c) with scaler to avoid cvx
+    % I multiply both sides of the eqn.(2b) with scaler to avoid cvx
     % numerical errors.
     E=ones(N,1)*eng_scale; % Energy requirement
     %% Topology creation
