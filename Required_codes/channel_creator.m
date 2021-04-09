@@ -17,7 +17,10 @@ function [Hi] = channel_creator(K, N ,RR,d,dalgalamba,rician_K_factor,scaler, Ro
 %RR:# node(receiver) antennas
 %d: antenna distance matrix
 %dalgalamba: wavelength
-%rician_K_factor: Rician K factor
+
+%rician_K_factor: Rician K factor 
+%    This is taken as 0 during simulations which corresponds to rayleigh fading, non-zero values does not correspond to Rician Fading.
+
 %scaler: scaling factor of eqn.(2c). Eliminates cvx numerical errors.
 %Ro: energy conversion efficiency
 
