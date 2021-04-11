@@ -49,8 +49,8 @@ l=log2(K)+1; % number of how many rf chain values is used
 s=2; % number of how many different rf chain values is used
 
 rician_K_factor=0; % rician K factor - Taken as 0 to have rayleigh fading during simulations.
-% Non-zero values does not correspond to Rician fading. User must alter the channel_creator.m function to 
-% have Rician fading. This is a non-used variable, remainder of previous coding process.
+% Non-zero values do not correspond to Rician fading. User must alter the channel_creator.m function to 
+% have Rician fading. This is a unused variable, remainder of a previous coding process.
 
 fc=28*10^9; % Carrier frequency (Hz)
 c=299792458; % speed of light(m/s)
