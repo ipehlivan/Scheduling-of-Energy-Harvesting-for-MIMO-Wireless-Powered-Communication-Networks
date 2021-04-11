@@ -19,7 +19,8 @@ function [Hi] = channel_creator(K, N ,RR,d,dalgalamba,rician_K_factor,scaler, Ro
 %dalgalamba: wavelength
 
 %rician_K_factor: Rician K factor 
-%    This is taken as 0 during simulations which corresponds to rayleigh fading, non-zero values does not correspond to Rician Fading.
+%    This is taken as 0 during simulations which corresponds to rayleigh fading, non-zero values do not correspond to Rician Fading.
+%    Unused variable and remainder of a previous coding process.
 
 %scaler: scaling factor of eqn.(2c). Eliminates cvx numerical errors.
 %Ro: energy conversion efficiency
